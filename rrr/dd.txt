@@ -1,0 +1,54 @@
+
+
+*프론트엔드와 백엔드의 개념 차이                 
+front end  -  back end  -   DB
+ (카운터)  -   (주방)   -  (창고)
+ request  ->  SQLquery  ->
+          <-JSONresponse<- result
+
+
+*쿠키와 세션
+  
+
+
+
+
+
+
+
+
+*JSP(Java Server Pages) - Oracle에서 관리하는 java기능을 사용 / 보안성 우수
+
+*PHP(Hypertext Preprocessor) - 다양한 db 지원 / 
+
+*ASP(Active Server Pages) - 윈도우
+
+
+
+wordpress - 
+
+
+
+
+
+
+
+
+
+*web service - 컴퓨터와 컴퓨터 간의 상호작용을 위한 시스템
+*www - 컴퓨터와 사람
+
+
+
+*hosting - host: client
+           hosting: 정보 및 소프트웨어 하드웨어를 제공해주는 사업자
+ 
+
+*web hosting - 웹서버를 운영하기 위한 모든 것(하드웨어 운영체제 웹서버 미들웨어 데이터베이스 등을 결합하여 제공)
+
+               사용자는 서버에 신경 x / 관리자가 필요 없다 / 업로드만 하면 그만
+
+
+*server hosting - "서버 컴퓨터를 제공하는 호스팅" (처음 서버 사양과 OS를 선택하면 끝)
+
+                   서버를 단독으로 사용해 보안상 유리 -> 서버 관리자의 보안 역량이 중요함.
