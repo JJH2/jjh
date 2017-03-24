@@ -1,10 +1,10 @@
 "use strict"
 function Jang(a, b) {
-    var width = a;
-    var height = b;
+    this.width = a;
+    this.height = b;
     function jj(count) {
         var lala = count;
-        return console.log(a + b * count);
+        return console.log(a + b * lala);
     }
     return jj;
 }
