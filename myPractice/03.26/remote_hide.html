@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <script>
+  function fn_sch_kw(kw) {
+    var loc_addr = "서울_석촌동";
+    var form = document.createElement("form");
+    form.setAttribute("method","post");
+    form.setAttribute("action","/list/" + kw + "/" + loc_addr);
+    document.body.appendChild(form);
+    form.submit();
+  }
+
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="cate-area">
+		<ul id="category" class="list-inline list-unstyled">
+			<li class="chicken"		onclick="fn_sch_kw('치킨');">치킨 <em>|</em></li>
+		</ul>
+	</div>
+</body>
+</html>

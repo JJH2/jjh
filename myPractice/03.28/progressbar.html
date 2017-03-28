@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>jQuery UI Progressbar - Custom Label</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css" />
+  <style>
+
+  </style>
+  <script>
+  for(var i = 0; i < 1000000; i++) {
+    var poto = document.getElementById("progressbar");
+
+  }
+  window.onload = function(){
+    setTimeout(function(){
+      var t = performance.timing;
+      console.log(t.loadEventEnd - t.responseEnd);
+    }, 0);
+  }
+  </script>
+</head>
+<body>
+
+<div id="progressbar"><div class="progress-label">Loading...</div></div>
+
+
+</body>
+</html>
